@@ -9,10 +9,10 @@ export const Home = () => {
 
 
     return (
-        <div style={ dark ? { background: '#F5EED4'} : {background: '#39324d'}} className="container-home">
+        <div style={ dark ? { background: '#F5EED4', color: 'black'} : {background: '#39324d', color: 'white'}} className="container-home">
 
             <Header dark={dark} setDark={() => setDark(!dark)} />
-            <Apresentacao/>
+            <Apresentacao dark={dark} setDark={() => setDark(!dark)} />
         </div>
     )
 }
