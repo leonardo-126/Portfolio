@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./home.css"
 import { Header } from "../components/header/header";
 import { Apresentacao } from "../components/apresentacao/apresentacao";
+import { Skills } from "../components/skills/skills";
 
 
 export const Home = () => {
@@ -13,6 +14,7 @@ export const Home = () => {
 
             <Header dark={dark} setDark={() => setDark(!dark)} />
             <Apresentacao dark={dark} setDark={() => setDark(!dark)} />
+            <Skills dark={dark} setDark={ () => setDark(!dark)} />
         </div>
     )
 }

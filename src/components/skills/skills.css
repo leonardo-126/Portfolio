@@ -1,0 +1,29 @@
+.container-skills {
+    width: 100%;
+    margin-top: 60px;
+
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.skills-info {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.skills-info-box-name {
+    width: 250px;
+}
+
+.skills-info-box-name h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

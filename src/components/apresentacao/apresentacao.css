@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 60px;
 
     
 
@@ -10,6 +11,11 @@
 
 .info {
     width: 500px;
+}
+
+.img-pessoal img{
+    width: 250px;
+    border-radius: 25px;
 }
 
 .info-name {

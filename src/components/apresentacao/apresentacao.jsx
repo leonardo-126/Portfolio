@@ -4,11 +4,11 @@ import { BsInstagram } from 'react-icons/bs';
 import { AiFillGithub, AiOutlineLinkedin  } from 'react-icons/ai';
 
 
-export const Apresentacao = (props) => {
+export const Apresentacao = () => {
     return (
-        <div className="container-apresentacao" style={ props.dark ? { background: '#FAF0D7', color:'black' } : {background: '#39324d', color: 'white'}} >
+        <div className="container-apresentacao"  >
             <div className="img-pessoal">
-                <img src="/minhaFoto.jpg" alt="Minha foto"/>
+                <img src="/dex.jpg" alt="Minha foto"/>
             </div>
             <div className="info" >
                 <div className="info-name">Leonardo de Paula Paiva</div>
