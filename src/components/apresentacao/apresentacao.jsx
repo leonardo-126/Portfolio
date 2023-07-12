@@ -1,7 +1,8 @@
 import "./apresentacao.css"
 import { FiTwitter } from 'react-icons/fi';
 import { BsInstagram } from 'react-icons/bs';
-import { AiFillGithub, AiOutlineLinkedin  } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
+import { AiOutlineLinkedin  } from 'react-icons/ai';
 
 
 export const Apresentacao = () => {

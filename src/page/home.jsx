@@ -3,6 +3,7 @@ import "./home.css"
 import { Header } from "../components/header/header";
 import { Apresentacao } from "../components/apresentacao/apresentacao";
 import { Skills } from "../components/skills/skills";
+import { Info } from "../components/informacoes/informacoes";
 
 
 export const Home = () => {
@@ -10,11 +11,13 @@ export const Home = () => {
 
 
     return (
-        <div style={ dark ? { background: '#F5EED4', color: 'black'} : {background: '#39324d', color: 'white'}} className="container-home">
-
+        <>
             <Header dark={dark} setDark={() => setDark(!dark)} />
-            <Apresentacao dark={dark} setDark={() => setDark(!dark)} />
-            <Skills dark={dark} setDark={ () => setDark(!dark)} />
-        </div>
+            <div style={ dark ? { background: '#F5EED4', color: 'black'} : {background: '#39324d', color: 'white'}} className="container-home">
+                <Apresentacao />
+                <Skills />
+                <Info dark={dark}/>
+            </div> 
+        </>
     )
 }

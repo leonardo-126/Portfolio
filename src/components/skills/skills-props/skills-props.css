@@ -1,3 +1,4 @@
+
 .skills-info-box{
     width: 100%;
     cursor: pointer;
@@ -5,8 +6,10 @@
 
 .skills-info-nivel {
     margin-left: 20px;
-    border-bottom: 2px solid;
-    border-left: 2px solid;
     width: 200px;
     padding: 5px;
+}
+
+.skills-info-nivel-borda {
+    border: 1px solid;
 }
