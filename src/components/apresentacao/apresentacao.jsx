@@ -5,11 +5,11 @@ import { AiFillGithub } from 'react-icons/ai';
 import { AiOutlineLinkedin  } from 'react-icons/ai';
 
 
-export const Apresentacao = () => {
+export const Apresentacao = (props) => {
     return (
         <div className="container-apresentacao"  >
             <div className="img-pessoal">
-                <img src="/dex.jpg" alt="Minha foto"/>
+                <img src="/dexFoto.png" alt="Minha foto"/>
             </div>
             <div className="info" >
                 <div className="info-name">Leonardo de Paula Paiva</div>
