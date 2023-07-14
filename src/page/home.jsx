@@ -6,6 +6,7 @@ import { Skills } from "../components/skills/skills";
 import { Info } from "../components/informacoes/informacoes";
 import { Frase } from "../components/frase/frase";
 import { Footer } from "../components/footer/footer";
+import { Projeto } from "../components/projetos/projetos";
 
 
 export const Home = () => {
@@ -18,6 +19,7 @@ export const Home = () => {
             <div style={ dark ? { background: '#F5EED4', color: 'black'} : {background: '#39324d', color: 'white'}} className="container-home">
                 <Apresentacao dark={dark} />
                 <Skills />
+                <Projeto/>
                 <Info dark={dark}/>
                 <Frase/>
             </div> 
