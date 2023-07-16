@@ -23,4 +23,19 @@
     justify-content: center;
     
     cursor: pointer;
+    animation: rotacao 10s infinite linear;
+}
+
+@keyframes rotacao {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.icon:hover {
+    scale: 1.1;
+    transition: 0.5s;
 }
