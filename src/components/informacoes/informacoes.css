@@ -18,6 +18,12 @@
     width: 100%;
     padding: 20px;
 }
+
+.info-details-box-arrow{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
 .info-details-box-dentro {
 
     padding: 15px;
