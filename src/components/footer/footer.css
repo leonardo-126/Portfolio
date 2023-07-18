@@ -19,6 +19,11 @@
 
 }
 .footer-container-icons a{
-    margin-left: 20px;
-    color: red;
+    padding: 10px;
+}
+
+.footer-container-icons a:hover {
+    
+    background-color: rgba(0, 0, 0,0.2);
+    border-radius: 10px;
 }

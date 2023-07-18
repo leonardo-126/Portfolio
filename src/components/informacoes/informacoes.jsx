@@ -1,5 +1,5 @@
 import './informacoes.css'
-import { AiOutlineArrowDown, AiOutlineArrowUp } from 'react-icons/ai';
+import { AiOutlineArrowDown} from 'react-icons/ai';
 import React, { useState } from 'react';
 
 export const Info = (props) => {
@@ -13,8 +13,6 @@ export const Info = (props) => {
             setIconeAtual(!iconeAtual)
 
         }
-
-
 
         const toogleInfo2 = () => {
             setContent2(!content2)

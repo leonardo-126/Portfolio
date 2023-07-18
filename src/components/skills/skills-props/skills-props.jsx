@@ -6,7 +6,7 @@ export const SkillsProps = (props) => {
             <h1>{props.skill}</h1>
             <div className="skills-info-nivel">
                 <span>{props.nivel}</span>
-                <div className="skills-info-nivel-borda"></div>
+                <div className="skills-info-nivel-borda" ></div>
             </div>
         </div>
     )

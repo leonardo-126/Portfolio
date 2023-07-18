@@ -50,11 +50,9 @@
 .info-icons a {
     padding: 10px;
     text-decoration: none;
-    color: red;
-    
 }
 
 .info-icons a:hover {
-    scale: 1.2;
-    transition: 1s;
+    background-color: rgba(0, 0, 0,0.2);
+    border-radius: 10px;
 }

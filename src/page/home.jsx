@@ -16,10 +16,10 @@ export const Home = () => {
     return (
         <>
             <Header dark={dark} setDark={() => setDark(!dark)} />
-            <div style={ dark ? { background: '#F5EED4', color: 'black'} : {background: '#39324d', color: 'white'}} className="container-home">
+            <div style={ dark ? { background: '#F5EED4', color: 'rgb(87, 67, 69)'} : {background: '#39324d', color: 'rgb(255, 232, 239)'}} className="container-home">
                 <Apresentacao dark={dark} />
-                <Skills />
-                <Projeto/>
+                <Skills/>
+                <Projeto dark={dark} />
                 <Info dark={dark}/>
                 <Frase/>
             </div> 

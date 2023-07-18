@@ -11,5 +11,17 @@
 }
 
 .skills-info-nivel-borda {
-    border: 1px solid;
-}
+    width: 300px;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #FFC857 );
+    animation: loadingAnimation 4s infinite linear;
+  }
+  
+  @keyframes loadingAnimation {
+    0% {
+      background-position: -300px 0;
+    }
+    100% {
+      background-position: 300px 0;
+    }
+  }
